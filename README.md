@@ -1,24 +1,51 @@
-# My React App
+# React-Bootstrap Checkpoint App
 
-This is a simple React application created to demonstrate the use of `react-bootstrap`.
+A simple React app built with Vite and styled using React-Bootstrap.
 
 ## Features
 
-*   A navigation bar
-*   A heading
-*   Three cards displaying information
-*   A form within one of the cards
+- Navbar built with `react-bootstrap`
+- Main heading section
+- Three Bootstrap cards in a responsive row
+- React Fragment wrapping the main app layout
 
-## Getting Started
+## Tech Stack
 
-To get started with this project, clone the repository and install the dependencies:
+- React 19
+- Vite
+- React-Bootstrap
+- Bootstrap 5
+
+## Project Structure
+
+```text
+src/
+	App.jsx      # Main UI (navbar, heading, cards)
+	main.jsx     # App entry point and global imports
+```
+
+## Setup
 
 ```bash
 npm install
 ```
 
-Then, you can run the development server:
+## Run in Development
 
 ```bash
-npm start
+npm run dev
+```
+
+Vite will print a local URL (usually `http://localhost:5173/`).
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Preview Production Build
+
+```bash
+npm run preview
 ```
